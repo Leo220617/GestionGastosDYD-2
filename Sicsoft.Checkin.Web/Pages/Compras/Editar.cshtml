@@ -1,0 +1,310 @@
+﻿@page "{id}"
+@using System.Globalization
+@model GestionGastos20.Pages.Compras.EditarModel
+@{
+    ViewData["Title"] = "Compras";
+    NumberFormatInfo formato = new CultureInfo("es-CR").NumberFormat;
+    formato.CurrencySymbol = "";
+    formato.CurrencyGroupSeparator = ",";
+    formato.NumberDecimalSeparator = ".";
+}
+
+
+@section styles{
+
+
+}
+
+    @section scripts{
+    <script>
+        function Asignar(ids) {
+
+
+            $.ajax({
+                type: 'GET',
+                dataType: 'json',
+                url: '@Url.Page("Editar", "Asignar")',
+                data: { id: ids, idNorma: $("#normaid").val() },
+                success: function(result) {
+
+                    if (result == false) {
+
+                        // $("#Eliminar").hide();
+                        // $("#Error").show();
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Ha ocurrido un error al intentar actualizar'
+
+                        })
+                    } else {
+                        Swal.fire({
+                            title: "Ha sido actualizado con éxito",
+
+                            icon: 'success',
+                            showCancelButton: false,
+                            customClass: {
+                                confirmButton: 'swalBtnColor',
+
+                            },
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = window.location.href.split("/Editar")[0];
+                            }
+                        })
+                    }
+                },
+                beforeSend: function() {
+
+                },
+                complete: function() {
+
+                }
+            })
+        }
+
+    </script>
+
+}
+    <form method="post" id="formTipos" role="form" novalidate class="needs-validation " enctype="multipart/form-data">
+
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                Compras
+            </h1>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><i class="ti-dashboard"></i></a></li>
+                <li class="breadcrumb-item active">Editar Compra</li>
+            </ol>
+        </section>
+
+
+
+        <section class="content">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h6 class="box-subtitle"> Editar Compra</h6>
+
+                                </div>
+                                <div class="col-4">
+                                    <a asp-page="./Index" class="nav-link text-dark" style="text-decoration: underline;"><i class="ti-back-left "></i>  Regresar</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input hidden asp-for="Objeto.id" />
+                            <div class="row">
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Cédula Proveedor:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            @{
+                                            Model.Objeto.CodProveedor = Model.Objeto.CodProveedor.Replace('[', '-');
+                                        }
+                                            <input type="text" readonly asp-for="Objeto.CodProveedor" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Consecutivo Hacienda<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" readonly asp-for="Objeto.ConsecutivoHacienda" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+
+                            <div class="row">
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Nombre Proveedor:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" readonly asp-for="Objeto.NomProveedor" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Número Factura:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" readonly asp-for="Objeto.NumFactura" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+
+                            <div class="row">
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Moneda:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" readonly asp-for="Objeto.CodMoneda" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Fecha Factura:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="date" readonly asp-for="Objeto.FecFactura" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Usuario Asignado:<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" readonly asp-for="Objeto.UsuarioAsignado" class="form-control" required data-validation-required-message="Este campo es requerido">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <h5>Norma de Reparto:<span class="text-danger">*</span></h5>
+
+                                        <select id="normaid" class="form-control select2  " asp-for="Objeto.idNormaReparto">
+                                            <option value="0">-Norma Reparto-</option>
+                                            @foreach (var item in Model.Normas)
+                                        {
+                                            <option value="@item.id">@item.Nombre</option>
+                                        }
+
+
+                                    </select>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box">
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-12 table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr class="bg-pale-info">
+
+                                            <th class="text-center">Cantidad</th>
+                                            <th class="text-center">Nombre</th>
+                                            <th class="text-center">SubTotal</th>
+                                            <th class="text-center">Descuento</th>
+                                            <th class="text-center">Impuesto</th>
+                                            <th class="text-center">Total</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody">
+
+
+
+                                        @foreach (var item in Model.Objeto.DetCompras)
+                                        {
+                                            <tr>
+
+
+                                                <td class="text-center"> @Math.Round(item.Cantidad.Value, 2).ToString("C",formato)  </td>
+
+
+
+
+                                                <td class="text-center">  @item.NomPro </td>
+
+                                                <td class="text-center">@Math.Round(item.SubTotal.Value, 2).ToString("C",formato)   </td>
+
+
+                                                <td class="text-center">  @Math.Round(item.MontoDescuento.Value, 2).ToString("C",formato)  </td>
+                                                <td class="text-center"> @Math.Round(item.ImpuestoMonto.Value, 2).ToString("C",formato)   </td>
+                                                <td class="text-center">  @Math.Round(item.MontoTotalLinea.Value, 2).ToString("C",formato)    </td>
+
+                                                @*      @decimal.Round(item.MontoDescuento, 2).ToString("C",formato)*@
+
+
+
+
+
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <div class="text-xs-right">
+                            <button onclick="javascript: Asignar('@Model.Objeto.id');" type="button" class="btn btn-info" title="Guardar Cambios">Guardar Cambios</button>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+</form>
+
+

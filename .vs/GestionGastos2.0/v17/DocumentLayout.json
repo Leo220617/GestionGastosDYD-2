@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:05:09.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAACcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T15:44:35.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
