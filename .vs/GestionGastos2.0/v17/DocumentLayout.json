@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\compras\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\compras\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,19 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPcAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T16:05:09.951Z",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:14:23.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAP0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:05:09.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
@@ -43,8 +59,7 @@
               "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAACcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T15:44:35.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T15:44:35.271Z"
             }
           ]
         }
