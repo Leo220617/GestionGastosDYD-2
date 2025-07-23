@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevon.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevon.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevoh.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevoh.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevoe.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevoe.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevod.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevod.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\compras\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\compras\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\servicios\\icrudapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\servicios\\icrudapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editarp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editarp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editarn.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editarn.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editarh.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editarh.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editarg.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editarg.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\nuevo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\nuevo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|c:\\users\\larce\\documents\\github\\gestiongastosdyd-2\\sicsoft.checkin.web\\pages\\liquidaciones\\editare.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762623F6-323B-48B5-A3F4-1F12E7A67DEE}|Sicsoft.Checkin.Web\\GestionGastos20.csproj|solutionrelative:sicsoft.checkin.web\\pages\\liquidaciones\\editare.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +79,210 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
-              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowEQAAAAQAAAA",
+              "Title": "NuevoP.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoP.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoP.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoP.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoP.cshtml.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAAAL4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:14:23.776Z",
+              "WhenOpened": "2025-07-23T15:12:04.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Index.cshtml",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAAP0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T16:05:09.951Z"
+              "Title": "NuevoN.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoN.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoN.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoN.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoN.cshtml.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAAAL4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:11:57.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAACcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T15:44:35.271Z"
+              "Title": "NuevoH.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoH.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoH.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoH.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoH.cshtml.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAAANoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:11:50.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NuevoG.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoG.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoG.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoG.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoG.cshtml.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAAMwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:11:44.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NuevoE.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoE.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoE.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoE.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoE.cshtml.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAAAL4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:11:36.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NuevoD.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoD.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoD.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoD.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\NuevoD.cshtml.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAAM0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:11:17.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Compras\\Index.cshtml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:59.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICrudApi.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Servicios\\ICrudApi.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Servicios\\ICrudApi.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Servicios\\ICrudApi.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Servicios\\ICrudApi.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA+wDEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:49.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditarP.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarP.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarP.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarP.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarP.cshtml.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditarN.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarN.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarN.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarN.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarN.cshtml.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:31.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditarH.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarH.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarH.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarH.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarH.cshtml.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:16.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditarG.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarG.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarG.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarG.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarG.cshtml.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:10:07.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditarE.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarE.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarE.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarE.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarE.cshtml.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAIkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:09:46.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditarD.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarD.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarD.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarD.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\EditarD.cshtml.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAAIAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:00:53.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Editar.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Editar.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Editar.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Editar.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Editar.cshtml.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:37:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Nuevo.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Nuevo.cshtml.cs",
+              "RelativeDocumentMoniker": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Nuevo.cshtml.cs",
+              "ToolTip": "C:\\Users\\larce\\Documents\\GitHub\\GestionGastosDYD-2\\Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Nuevo.cshtml.cs",
+              "RelativeToolTip": "Sicsoft.Checkin.Web\\Pages\\Liquidaciones\\Nuevo.cshtml.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAAAL4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T15:37:10.957Z",
+              "EditorCaption": ""
             }
           ]
         }

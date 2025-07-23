@@ -188,8 +188,8 @@ namespace GestionGastos20.Pages.Liquidaciones
 
                 Gastos = await gastos.ObtenerLista("");
 
-                await compras.RealizarLecturaEmails();
-                await compras.LecturaBandejaEntrada();
+                //await compras.RealizarLecturaEmails();
+                //await compras.LecturaBandejaEntrada();
 
                 return Page();
             }

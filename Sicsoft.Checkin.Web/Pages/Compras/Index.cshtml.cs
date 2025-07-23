@@ -53,8 +53,8 @@ namespace GestionGastos20.Pages.Compras
                 if (string.IsNullOrEmpty(filtro.Texto))
                 {
 
-                    await service.RealizarLecturaEmails();
-                    await service.LecturaBandejaEntrada();
+                    //await service.RealizarLecturaEmails();
+                    //await service.LecturaBandejaEntrada();
                 }
 
                 DateTime time = new DateTime();

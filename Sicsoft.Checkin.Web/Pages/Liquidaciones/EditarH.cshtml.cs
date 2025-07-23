@@ -124,16 +124,16 @@ namespace GestionGastos20.Pages.Liquidaciones
                 }
                 //Liquidacion.EncCierre.
                 Objeto = Objeto.OrderBy(a => a.FecFactura).ToArray();
-                try
-                {
-                    await compras.RealizarLecturaEmails();
-                    await compras.LecturaBandejaEntrada();
-                }
-                catch (Exception ex)
-                {
+                //try
+                //{
+                //    await compras.RealizarLecturaEmails();
+                //    await compras.LecturaBandejaEntrada();
+                //}
+                //catch (Exception ex)
+                //{
 
 
-                }
+                //}
 
 
                 Gastos = await gastos.ObtenerLista("");
