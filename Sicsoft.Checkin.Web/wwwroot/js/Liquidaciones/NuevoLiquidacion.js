@@ -1173,31 +1173,36 @@ function AgregarProductosI() {
         switch ($("#TipoImpuesto").val()) {
             case "1":
                 {
-                    detalle.ImpuestoMonto += parseFloat(detalle.PrecioUnitario) * 0.01;
+                    var monto = parseFloat(detalle.PrecioUnitario) / 1.01;
+                    detalle.ImpuestoMonto += parseFloat(monto) * 0.01;  
                     detalle.Impuesto1 += detalle.ImpuestoMonto;
                     break;
                 }
             case "2":
                 {
-                    detalle.ImpuestoMonto += parseFloat(detalle.PrecioUnitario) * 0.02;
+                    var monto = parseFloat(detalle.PrecioUnitario) / 1.02;
+                    detalle.ImpuestoMonto += parseFloat(monto) * 0.02;  
                     detalle.Impuesto2 += detalle.ImpuestoMonto;
                     break;
                 }
             case "4":
                 {
-                    detalle.ImpuestoMonto += parseFloat(detalle.PrecioUnitario) * 0.04;
+                    var monto = parseFloat(detalle.PrecioUnitario) / 1.04;
+                    detalle.ImpuestoMonto += parseFloat(monto) * 0.04;  
                     detalle.Impuesto4 += detalle.ImpuestoMonto;
                     break;
                 }
             case "8":
                 {
-                    detalle.ImpuestoMonto += parseFloat(detalle.PrecioUnitario) * 0.08;
+                    var monto = parseFloat(detalle.PrecioUnitario) / 1.08;
+                    detalle.ImpuestoMonto += parseFloat(monto) * 0.08; 
                     detalle.Impuesto8 += detalle.ImpuestoMonto;
                     break;
                 }
             case "13":
                 {
-                    detalle.ImpuestoMonto += parseFloat(detalle.PrecioUnitario) * 0.13;
+                    var monto = parseFloat(detalle.PrecioUnitario) / 1.13;
+                    detalle.ImpuestoMonto += parseFloat(monto) * 0.13;
                     detalle.Impuesto13 += detalle.ImpuestoMonto;
                     break;
                 }

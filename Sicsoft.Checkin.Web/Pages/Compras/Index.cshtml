@@ -112,8 +112,7 @@
                 .from(item)
                 .save("LibroCompras.pdf");
         }
-        function LibroComprasExcel()
-        {
+        function LibroComprasExcel() {
             var wb = XLSX.utils.table_to_book(document.getElementById('tablaLibrosCompras'), { sheet: "Sheet1" });
             var wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'binary' });
 
@@ -416,6 +415,80 @@
             }
         }
     </script>
+    <script>
+        var ids = 0;
+        var ids2 = 0;
+        function onClickModal(id) {
+
+            ids = id;
+
+
+            Swal.fire({
+                title: '¿Desea eliminar esta compra?',
+                showDenyButton: true,
+                showCancelButton: false,
+                confirmButtonText: `Aceptar`,
+                denyButtonText: `Cancelar`,
+                customClass: {
+                    confirmButton: 'swalBtnColor',
+                    denyButton: 'swalDeny'
+                },
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+
+                    Eliminar();
+
+                }
+            })
+
+
+        }
+        function Eliminar() {
+
+
+            $.ajax({
+                type: 'GET',
+                dataType: 'json',
+                url: '@Url.Page("Index", "Eliminar")',
+                data: { id: ids },
+                success: function (result) {
+
+                    if (result == false) {
+                        ids = 0;
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Ha ocurrido un error al intentar eliminar la compra'
+
+                        })
+                    } else {
+                        Swal.fire({
+                            title: "Ha sido eliminado con éxito",
+
+                            icon: 'success',
+                            showCancelButton: false,
+                            customClass: {
+                                confirmButton: 'swalBtnColor',
+
+                            },
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                location.reload();
+                            }
+                        })
+                    }
+                },
+                beforeSend: function () {
+
+                },
+                complete: function () {
+
+                }
+            })
+        }
+    </script>
 }
 
 <!-- Content Header (Page header) -->
@@ -535,7 +608,7 @@
                                     <button title="Libro de Compras" type="button" class="btn btn-rounded btn-outline-primary" onclick="javascript: LibroComprasExcel()">Libro de Compras EXCEL</button>
                                 </div>
                             }
-                          
+
 
 
 
@@ -587,6 +660,12 @@
                                                 {
                                                     <a asp-page="./Editar" asp-route-id="@item.id" title="Editar" class="fa fa-edit icono"> </a>
                                                 }
+                                            }
+                                            &nbsp;
+
+                                            @if (item.idCierre == 0 || item.idCierre == null)
+                                            {
+                                                <a onclick="javascript: onClickModal('@item.id')" title="Eliminar Compras" class="fa fa-trash icono"></a>
                                             }
                                         </td>
                                         <td align="left" style="padding-top: 15px;"><a style="font-size:15px;" href="@item.PdfFactura" target="_blank">@item.ConsecutivoHacienda</a></td>
@@ -678,7 +757,6 @@
     <!-- /.row -->
 </section>
 <!-- /.content -->
-
 <!--Impresion Guatemala-->
 <div id="htmlImprimir" style="font-family: 'Courier New', Courier, monospace;   margin: 0; padding: 0;" hidden>
     <h4 style="text-align: center; font-size: 15px;">AGRICENTER GUATEMALA S.A <br> LIBRO DE COMPRAS<br>Aplicables a Crédito Fiscal </h4>
@@ -687,7 +765,7 @@
 
     <table style=" width: 100%; border-collapse: collapse; font-size: 10px;" id="tablaLibrosCompras">
         <thead>
-            <tr >
+            <tr>
                 <th style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">Fecha Documento</th>
                 <th style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">Numero Documento</th>
                 <th style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">Clase Documento </th>
@@ -719,7 +797,7 @@
                     <td style="border: 1px solid black;  padding: 2px;  text-align: center;">@decimal.Round(item.TotalComprobante.Value, 2).ToString("N", formato)</td>
 
                 </tr>
-              
+
             }
             <tr>
                 <td style="border: 1px solid black;  padding: 2px;  text-align: center;" colspan="6">Total</td>
@@ -737,7 +815,7 @@
         <thead>
             <tr>
                 <th colspan="2" style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">Aplica Crédito Fiscal</th>
-                <th style =" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">I.V.A.</th>
+                <th style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">I.V.A.</th>
                 <th style=" border: 1px solid black;  padding: 2px;  text-align: center; background-color: #f2f2f2;">Total General</th>
 
             </tr>
@@ -750,7 +828,7 @@
                 <td style="border: 1px solid black;  padding: 2px;  text-align: center;">@decimal.Round(Model.Objeto.Sum(a => a.TotalComprobante).Value, 2).ToString("N", formato)</td>
 
             </tr>
-          
+
         </tbody>
     </table>
 

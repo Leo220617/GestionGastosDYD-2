@@ -98,7 +98,24 @@ namespace GestionGastos20.Pages.Compras
             }
         }
 
+        public async Task<IActionResult> OnGetEliminar(string id)
+        {
+            try
+            {
+                var ids = Convert.ToInt32(id);
+                await service.Eliminar(ids);
 
+                return new JsonResult(true);
+            }
+            catch (ApiException ex)
+            {
+                return new JsonResult(false);
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(false);
+            }
+        }
         public async Task<ActionResult> OnGetPDF(int id)
         {
             try
